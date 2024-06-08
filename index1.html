@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Page Web</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ma Page Web</h1>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a_propos">À Propos</a></li>
+            <li><a href="#travail">Travail</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="accueil">
+    <h2>Accueil</h2>
+    <p>Bienvenue sur notre site web.</p>
+</section>
+
+<section id="a_propos">
+    <h2>À Propos de moi</h2>
+    <p>Je suis une jeune Etudiante de nationalité
+        Ivoirienne, âgé de 22 ans, célibataire sans
+        enfant. Je prétends intégrer une équipe
+        professionnelle compétente et dynamique
+        pour une bonne expérience en entreprise..</p>
+        <!-- Incorrect img declaration  -->
+        <img src="C:\Users\HP\Desktop\GoMyCode\formation web\res\FB_IMG_15951430486984176.jpg" alt="">
+        <audio controls>
+            <source src="C:\Users\HP\Desktop\GoMyCode\formation web\res\Music\La discipline personnelle Dvelopper sa personnalit Michael Wilson Livre audio complet.mp3" type="audio/mpeg">
+        </audio>
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/https://www.youtube.com/https://www.youtube.com/https://www.youtube.com/watch?v=R4csxxR6liI" 
+        frameborder="0" allowfullscreen>
+
+        </iframe>
+</section>
+
+<section id="travail">
+    <h2>Travail</h2>
+    <p>Découvrez mes projets récents et mes compétences realises</p>
+    <ul>
+        <li>temps de réalisation : 3mois J'ai crée des affiches, des logos , des
+            maquettes et les interfaces web en utilisant Illustrator , Photoshop,
+            XD, Figma</li>
+        <li>Temps de réalisation : 3mois J'ai crée une application web de e
+            commerce pour la vente des produits alimentaires en utilisant PHP ,
+            html, CSS et base de donnée pour faire la conception</li>
+        <li>Je veux avec mes compétences et mon expérience . Je veux être
+            force proposition pour permettre à l' entreprise d' atteindre plus
+            efficacement son objectif</li>
+    </ul>
+</section>
+
+<section id="cv">
+    <h2>Mon CV</h2>
+    <p>Consultez mon CV pour en savoir plus sur mon parcours professionnel.</p>
+    <!-- Insérez un lien vers votre CV PDF -->
+    <a href="file:///C:/Users/HP/Desktop/CV%20NIAFOGOU%20MARIAM%20UI%20UX%20DESIGNER.pdf"
+        target="_blank">Télécharger CV (PDF)</a>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Contactez-nous :</p>
+    <form action="submit.php" method="POST">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<footer>
+    <p></p>
+</footer>
+
+</body>
+</html>
